@@ -35,12 +35,7 @@ export default function Home() {
       {displayValue}
     </div>
   );
-
-  document.documentElement.style.setProperty('--color-bg', '#22262E');
-  document.documentElement.style.setProperty('--color-heading', '#798EB0');
-  document.documentElement.style.setProperty('--color-counter', '#8973FD');
-  document.documentElement.style.setProperty('--font-family-heading', 'Mukta');
-
+  
   const CounterMain = () => (
     <div className="app">
       <section className="container">

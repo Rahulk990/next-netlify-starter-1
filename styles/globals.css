@@ -1,6 +1,18 @@
+html,
+body {
+  background-color: #f8fafc;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 .app {
-  background-image: linear-gradient(15deg, #1a1a1a, var(--color-bg));
+  background-image: linear-gradient(15deg, #1a1a1a, #22262E);
   color: var(--color-text);
   display: flex;
   min-height: 100vh;
@@ -13,15 +25,6 @@
   @media (min-width: 48em) {
     padding: 4rem;
   }
-}
-
-html,
-body {
-  background-color: #f8fafc;
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .wrapped {
@@ -45,9 +48,9 @@ body {
 
 .date-button {
   background: rgba(255, 255, 255, 0.025);
-  color: var(--color-counter);
+  color: #8973FD;
   border-radius: 1rem;
-  font-family: var(--font-family-heading);
+  font-family: Mukta;
   font-size: clamp(1rem, 2vw, 99rem);
   font-weight: 300;
   letter-spacing: 0.1875em;
@@ -56,17 +59,10 @@ body {
   width: 20rem;
   cursor: pointer;
 }
-  
-code {
-  background: #e2e8f0;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
 
 .date-h1 {
-  color: var(--color-heading);
-  font-family: var(--font-family-heading);
+  color: #798EB0;
+  font-family: Mukta;
   font-size: clamp(1rem, 2vw, 99rem);
   font-weight: 300;
   letter-spacing: 0.1875em;
@@ -78,7 +74,7 @@ code {
 .counter {
   background: rgba(255, 255, 255, 0.025);
   border-radius: 1rem;
-  color: var(--color-counter);
+  color: #8973FD;
   display: flex;
   flex-direction: column;
   font-family: 'JetBrains Mono', mono;
@@ -90,8 +86,8 @@ code {
 }
 
 .counter-h2 {
-  color: var(--color-heading);
-  font-family: var(--font-family-heading);
+  color: #798EB0;
+  font-family: Mukta;
   font-size: clamp(1rem, 2vw, 99rem);
   font-weight: 300;
   letter-spacing: 0.1875em;
